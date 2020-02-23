@@ -1,0 +1,23 @@
+{
+  "name": "mac-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "devDependencies": {
+    "@types/node": "13.7.4",
+    "ts-node": "8.6.2",
+    "tslib": "1.11.0",
+    "typescript": "3.8.2"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "os": "0.1.1"
+  }
+}
